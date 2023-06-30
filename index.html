@@ -2,169 +2,170 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>javascript</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* color: white; */
-}
-body{
-    background-color: rgb(197, 155, 155);
+    <title>Homepage</title>
     
-}
-.container{
-    background-color: black;
-
-}
-.row{
-    display: flex;
-    padding: 40px 100px;
-    justify-content: space-between;
-
-}
-.footer-column ul{
-    list-style: none;
-}
-.footer-column h4{
-color: white;
-margin-bottom: 25px;
-font-size: 22px;
-position: relative;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
-.footer-column h4::before{
-    content: '';
-    height: 2px;
-    width: 70px;
-    position: absolute;
-    background-color: orange;
-    bottom: -10px;
-
-}
-.footer-column ul li{
-    padding: 9px 0;
-}
-.footer-column ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    opacity: 0.5;
-    transition: 0.5s;
-
-}
-.footer-column ul li a:hover{
-    opacity: 1;
-}
-.footer-column input{
-    border: none;
-    width: 250px;
-    height: 45px;
-    display: block;
-    padding-left: 20px;
-    margin: 14px 0;
-}
-.subbtn{
-    background-color: orange;
-    border-radius: 5px;
-    font-size: 20px;
-
-}
-.subbtn:hover{
-    opacity: 0.5;
-    color: rgb(3, 3, 7);
-    cursor: pointer;
-
-}
-@media(max-width:600px){
-    .row{
-        flex-direction: column;
-        padding: 20px 30px;
-    }
-    .footer-column ul{
-        margin-left: 20px;
-        margin-bottom: 20px;
-
-    }
-    input{
-        width: 100%;
-        color: black;
-    }
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,900;1,700&display=swap" rel="stylesheet">
 
 
-}
-span{
-    color: wheat;
-}
-#mysp{
-    margin-left: 300px;
-    margin-top: 0;
-    color: whitesmoke;
-}
-    </style>
+<link rel="stylesheet" href="style.css">
+
+
+
+
 </head>
 <body>
-   
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="footer-column">
-                    <h4>Contact</h4>
-                    <ul>
-                        <li><a href="">Email</a></li>
-                        <li><a href="">Whatsup</a></li>
-                        <li><a href="">Facebook</a></li>
-                        <li><a href="">Twitter</a></li>
-                        <li><a href="">david@gmail.com</a></li>
-                        <li><a href="">Tiktok</a></li>
+    <!-- header -->
+    <section class="header">
+        <!--nav -->
+        <nav> 
+            <a href="index.html" class="logo">MOGOTIO-UNIVERSITY</a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/about.html">ABOUT</a></li>
+                    <li><a href="/course.html">COURSE</a></li>
+                    <li><a href="/blog.html">BLOG</a></li>
+                    <li><a href="/contact.html">CONTACT</a></li>
 
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h4>About us</h4>
-                    <ul>
-                        <li><a href="">Mission</a></li>
-                        <li><a href="">Vision</a></li>
-                        <li><a href="">Experience</a></li>
-                        <li><a href="">Achievements</a></li>
-                        <li><a href="">Location</a></li>
 
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h4>Services</h4>
-                    <ul>
-                        <li><a href="">Software installation</a></li>
-                        <li><a href="">Computer class</a></li>
-                        <li><a href="">Front-end dev</a></li>
-                        <li><a href="">Back-end dev</a></li>
-                        <li><a href="">It support</a></li>
-                        <li><a href="">DevOps</a></li>
 
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h4>Explore</h4>
-                    <form action="">
-                       <span>Name:</span><input type="text" placeholder="Enter name">
-                       <span>Email:</span><input type="email" placeholder="Enter email">
-                        <input type="submit" class="subbtn" value="submit">
+                </ul>
+            </div>
+        </nav> 
+        <div class="text-box">
+            <h1>UNLOCK INFINITE <br>POSSIBILITY IN OUR UNIVERSITY</h1>
+            <p>Welcome to MOGOTIO UNIVERSITY, a prestigious institution dedicated to fostering<br> academic excellence, innovation, and personal growth.</p>
+            <a href="" class="my-btn">-Visit us To know More-</a>
+        </div>
 
-                    </form>
+    </section>
+    <!-- courses -->
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>At Our University, we are proud to present an extensive,<br> range of courses designed to empower students with the knowledge and skills.</p>
+        <div class="row">
+            <div class="coursecol">
+                <h3>Intermediate</h3>
+                <p>Our intermediate courses span various disciplines, including mathematics, sciences, humanities, social sciences, and languages</p>
+
+            </div>
+            <div class="coursecol">
+                <h3>Degree</h3>
+                <p>Whether you are pursuing an undergraduate degree or seeking advanced studies at the graduate level, our degree programs cater to a wide range of interests and career aspirations.</p>
+
+            </div>
+            <div class="coursecol">
+                <h3>Post graduate</h3>
+                <p>We understand the importance of practical application and real-world experiences. Many of our postgraduate programs include opportunities for internships, industry placements, and partnerships with organizations and institutions</p>
+
+            </div>
+        </div>
+
+    </section>
+    <!--  our cumpuses-->
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Our university brach  contributes to a vibrant, inclusive, and intellectually stimulating environment. Whether you are attending classes, pursuing research, engaging in other activities, or simply enjoying the beauty of the surroundings, the campus offers a rich and diverse range of experiences that enhance your educational journey and create lifelong memories.</p>
+        <div class="row">
+            <div class="campuscol">
+                <img src="/images/ronga.png.jpg" alt="" width="300" height="170px">
+                <div class="layer">
+                    <h3>Rongai</h3>
                 </div>
             </div>
-            <hr>
-            <br>
-            <br>
+            <div class="campuscol">
+                <img src="/images/naku.png.jpg" alt="" width="300"height="170px">
+                <div class="layer">
+                    <h3>Nakuru</h3>
+                </div>
+            </div>  
+            <div class="campuscol">
+                <img src="/images/koyu.png.jpg" alt="" width="300" height="170px">
+                <div class="layer">
+                    <h3>Koyumtich</h3>
+                </div>
+            </div>    
         </div>
-    </footer>
 
-    <script src="/david.js"></script>
+    </section>
+    <!-- facilities -->
+    <section class="facilites">
+        <h1>Our Facilities</h1>
+        <p>Our University boasts a comprehensive range of facilities that are designed to support<br> and enhance the educational experience of students, faculty, and staff. </p>
+        <div class="row">
+            <div class="facilitycol">
+                <img src="/images/library.png.jpg" alt="" width="300" height="170px">
+                <h3>Our Library</h3>
+                <p>The library is equipped with modern technology and facilities to support students' academic needs.</p>
+            </div>
+            <div class="facilitycol">
+                <img src="/images/vegez.jpg" alt=""width="300" height="170px">
+                <h3>Food Catering</h3>
+                <p>Our food services prioritize menu variety to ensure there is something for everyone.</p>
+            </div>
+            <div class="facilitycol">
+                <img src="/images/football.png.jpg" alt=""width="300" height="170px">
+                <h3>Play Ground</h3>
+                <p>Our university is proud to have a competitive football team that participates  various leagues and tournaments.</p>
+            </div>
+        </div>
 
+    </section>
+    <!-- testimonials -->
+    <sectio class="testimonies"> 
+        <h1>What Students Say</h1>
+        <p>Our University students say<br> that this is the best university that offer best quality education. </p>
+
+        <div class="row">
+            <div class="testimoniescol">
+                <img src="/images/ekai.png.jpg" alt="">
+                <div>
+                    <p>This first student says that he has joined the best university ever in the world </p>
+                    <h3>Robert Ekai</h3>
+                    
+
+                </div>
+
+            </div>
+            <div class="testimoniescol">
+                <img src="/images/ekai2.png.png" alt="">
+                <div>
+                    <p>This lady student also says that this is the best university a cross the globe </p>
+                    <h3>Joyce Ekutan</h3>
+
+                </div>
+
+            </div>
+        
+        </div>
+    </section>
+    <!-- call to action -->
+    <section class="call">
+        <h1>Enroll for Our courses Anywhere</h1>
+        <a href="" class="my-btn">CONTACT US</a>
+    </section>
+    <!-- footer -->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>One of the role of MOGOTIO-UNIVERSITY<br> is the commitment to research<br> and innovation. We encourage <br>students to pursue research projects,<br> collaborate with faculty, and contribute to the advancement<br> of knowledge in their<br> respective fields.</p>
+        <div>
+            <h4>Directory links</h4>
+            <a href="/index.html"><span>Home</span></a>
+            <a href="/about.html"><span>About<span></a>
+            <a href="/course.html"><span>Course<span></a>
+            <a href="/contact.html"><span>Contact<span></a>
+            <a href="/blog.html"><span>Blog</span></a>    
+             
+        </div>
+       
+        <p id="lastpara"><span id="devop">Made by DevOp Engineer david@ekaiekadeli ,<br>phone +24758287940</span></p>
+
+    </section>
+
+    
 </body>
 </html>
